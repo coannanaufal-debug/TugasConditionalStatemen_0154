@@ -32,3 +32,14 @@ int main() {
     
     // Memanggil prosedur input
     inputData(berat, tinggi);
+    // Memanggil fungsi hitung
+    bmi = hitungBMI(berat, tinggi);
+
+    cout << "\n--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmi << endl;
+    
+    // Memanggil fungsi status
+    cout << "Status   : " << cekStatus(bmi) << endl;
+
+    return 0;
+}
