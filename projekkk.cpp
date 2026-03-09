@@ -6,3 +6,9 @@ using namespace std;
 // Fungsi 1: Menghitung nilai BMI
 float hitungBMI(float berat, float tinggi) {
     return berat / (tinggi * tinggi);
+}
+// Fungsi 2: Menentukan kategori kondisi berat badan
+string cekStatus(float bmi) {
+    if (bmi < 18.5) {
+        return "Berat Badan Kurang";
+    } else if (bmi < 25) {
