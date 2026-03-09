@@ -18,3 +18,10 @@ string cekStatus(float bmi) {
         return "Obesitas";
     }
 }
+// Prosedur: Masukan data berat dan tinggi
+void inputData(float &berat, float &tinggi) {
+    cout << "Masukkan berat badan (kg): ";
+    cin >> berat;
+    cout << "Masukkan tinggi badan (meter): ";
+    cin >> tinggi;
+}
