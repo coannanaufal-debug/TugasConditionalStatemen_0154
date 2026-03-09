@@ -28,7 +28,7 @@ void inputData(float &berat, float &tinggi) {
 int main() {
     float berat, tinggi, bmi;
 
-    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
+    cout << "--- Selamat Datang Mahasiswa Kelas D 2026 ---" << endl;
     
     // Memanggil prosedur input
     inputData(berat, tinggi);
